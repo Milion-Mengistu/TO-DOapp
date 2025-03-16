@@ -12,6 +12,8 @@ A simple **To-Do List App** that allows users to add, check, and delete tasks. T
 
 ## 📸 Screenshot
 ![To-Do App Screenshot](assets/screenshot.png) 
+![To-Do App Screenshot](assets/screenshot2.png)
+![To-Do App Screenshot](assets/image.png) 
 ## 🛠️ Technologies Used
 - **HTML**  
 - **CSS**  
