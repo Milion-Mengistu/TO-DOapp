@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    background: lightgray;
+  }
+  
+  header {
+    background-color: gold;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  
+  }
+  
+  header h1 {
+    color: white;
+    font-family:"Mcl" cursive ;
+    font-weight: 200;
+  }
+  
+  footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+  
+  footer p {
+    color: gray;
+  }
+  
+  
+  
+  .create-area{
+    background: #fff;
+    width: 300px;
+    border-radius: 7px ;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    margin: 16px;
+    
+  
+  }
+  
+  .card {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  textarea {
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+    
+    
+  }
+  
+  .add-button {
+   
+    padding: 2px;
+    border-radius: 100%;
+    border: none;
+    background-color: gold;
+    font-size: x-large;
+    color: white;
+    width: 30px;
+    height: 30px;
+    
+    float: right;
+   
+  
+  }
+  button:hover{
+    background-color: #ccc;
+  }
+  
+  input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    
+  }
+  
+  
+  
+  
+ 
+
+
+  .tasks {
+    margin: 20px;
+  }
+  
+  .task {
+    background: #fff;
+    border-radius: 7px ;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    margin: 16px;
+    width: 240px;
+    float: left;
+  }
+  
+  .task p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .task-checkbox {
+    display: inline;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+  .delete-btn {
+    color: gold;
+    float: right;
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    
+  }
+  .delete-icon {
+    width: 20px;  /* Adjust size */
+    height: 20px;
+    cursor: pointer;
+    padding: 2px;
+
+}
+.delete-icon:hover{
+    background-color: #ccc;
+    border-radius: 50%;
+    padding: 5px;
+    
+
+  }
+
+  .delete-btn:hover{
+    background-color: transparent;
+    color: red;
+  }
+  
+
+
+  
+  
