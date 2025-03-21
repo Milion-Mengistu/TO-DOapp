@@ -3,9 +3,12 @@
 document.addEventListener("DOMContentLoaded", function () {
     const form = document.querySelector(".create-area");
     const taskInput = document.querySelector("textarea");
+    const taskCard = document.createElement("div");
     const taskContainer = document.createElement("div");
-    taskContainer.classList.add("tasks");
+    taskContainer.classList.add("task-container");
+    taskCard.classList.add("tasks");
     document.querySelector("#root").insertBefore(taskContainer, document.querySelector("footer"));
+
 
 
     function loadTasks() {
@@ -26,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function addTask(content, completed = false) {
         if (content.trim() === "") return;
         const taskDiv = document.createElement("div");
+        
         taskDiv.classList.add("task");
 
 
@@ -58,7 +62,9 @@ document.addEventListener("DOMContentLoaded", function () {
         taskDiv.appendChild(checkbox);
         taskDiv.appendChild(taskText);
         taskDiv.appendChild(deleteBtn);
-        taskContainer.appendChild(taskDiv);
+        taskCard.appendChild(taskDiv);
+        taskContainer.appendChild(taskCard);
+
 
 
         if (completed) {
